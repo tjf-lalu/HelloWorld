@@ -112,6 +112,7 @@ public class GameOfWar
     }
   }
   
+  // this checks to see who won
   public boolean compareCards(int index)
   {
     System.out.println("User's card: "+cardNames[user.get(index)]
