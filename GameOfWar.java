@@ -40,7 +40,6 @@ public class GameOfWar
     public void makeDeck()
     {
     int counter = 0, cardVal;
-    // generate a deck of cards in 2 arrays: cardValues & cardSuits
     for(int i = 1; i<5; i++)
     {
       cardVal = 2;
@@ -77,6 +76,7 @@ public class GameOfWar
   
   public ArrayList<Integer> dealDeck()
   {
+    // local variable, rand, for the random integer "card"
     int rand;
     ArrayList <Integer> newArray = new ArrayList<Integer>();
     
