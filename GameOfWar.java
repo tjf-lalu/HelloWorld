@@ -160,7 +160,7 @@ public class GameOfWar
     g.play();
     System.out.println("Score: User: "+g.userWins+", Comp: "+g.compWins);
   } 
-    
+    //This is Khai, I was here on Game Of War, this game was deadly
     
     
     
